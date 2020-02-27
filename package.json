@@ -1,0 +1,20 @@
+{
+  "name": "line-bot-kalkulator",
+  "version": "1.0.0",
+  "description": "a simple calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terradjannah/line-bot-kalkulator.git"
+  },
+  "author": "Terra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terradjannah/line-bot-kalkulator/issues"
+  },
+  "homepage": "https://github.com/Terradjannah/line-bot-kalkulator#readme"
+}
