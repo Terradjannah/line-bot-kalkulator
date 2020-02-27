@@ -2,8 +2,8 @@ const { LineBot } = require("bottender");
 const { createServer } = require("bottender/express");
 const bot = new LineBot({
   // ubah ke access token dan channelSecret dibawah, sesuai dengan yang ada di line console
-  accessToken: "ISI_DENGAN_ACCESS_TOKEN_DARI_LINE_CONSOLE_TERRA",
-  channelSecret: "ISI_DENGAN_CHANNEL_SECRET_DARI_LINE_CONSOLE_TERRA"
+  accessToken: "F66BpuD0mp+mFVWXlUMnRvwa2pZqnMVbNusSI3e4eLYjwvaaXgwUPVoQ7in4kg/EMo71DJv8OQ5kCsFrUgj8yTgj7s3WxfCHAmeuoJypQp2JGPZSkcCW810tfWneAiN6KFrcMYH4EOLfsr5zSZGmbQdB04t89/1O/w1cDnyilFU=",
+  channelSecret: "0c380b116bc447644b6b39498e434fe2"
 });
 bot.onEvent(async context => {
   // 1. Pengecekan apakah bot menerima chat berupa text
